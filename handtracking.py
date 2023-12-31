@@ -1,5 +1,5 @@
 import cv2
-# import mediapipe as mp
+import mediapipe as mp
 import time
 
 # start running webcam
@@ -11,4 +11,6 @@ while True:
 
     cv2.imshow("Image", img)
     cv2.waitKey(1)
+
+# Getting different values for points/landmarks is tricky but we'll create a module to easily pinpoint particular points/locations.
 
